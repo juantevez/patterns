@@ -1,27 +1,51 @@
-# Maven
-
+```
+# Compiled and build artifacts
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
 
-# IDEs and editors
-.idea/
-.vscode/
+# Dependencies
+.mypy_cache/
+.pytest_cache/
+.coverage
+node_modules/
+venv/
+.venv/
+__pycache__/
+.julia/
+zig*/
+.gradle/
 
-# Logs
-logs
+# Logs and temp files
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+*.tmp
+*.swp
+*.swo
 
-# jar and .class folder
-target/
+# Environment
+.env
+.env.local
+*.env.*
 
+# Editors
+.vscode/
+.idea/
 
+# System files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+
+# Build directories
+dist/
+build/
+```
